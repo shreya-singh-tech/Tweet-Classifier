@@ -33,12 +33,10 @@ tweets_topic = T.topic_bucket
 
 Dataset was created by fetching titles of different **subreddit** relating to 6 main following categories.
 
-- technology 
 - business
 - politics
 - entertainment
-- sports
-- health
+
 
 ---
 To refresh the dataset with new headlines, run the script in dir ``twc/data/``:
@@ -51,11 +49,11 @@ and train the model again in ``twc/``
 $ python3 model_train.py
 ```
 
-The classifier being used here is **Multinomial Naive Bayes Classifier** with accuracy of 78%.
+The classifier being used here is **Multinomial Naive Bayes Classifier** with accuracy of 92%.
 
 **Other classifiers Accuracy (On this dataset)**:
-- Naive Bayes Classifier: 72%
-- SVC: 74%
+- Naive Bayes Classifier
+- SVC
 
     
     
